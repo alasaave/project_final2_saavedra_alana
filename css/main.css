@@ -52,17 +52,7 @@ aside::before, aside::after {
 	content: "";
 	padding-top: 25%;
 	display: block;
-
 }
-
-
-/* for media queries
-figure img {
-	width: calc(100% / 3.1);
-	display: inline;
-	box-sizing: border-box;
-}
-*/
 
 .button {
 	letter-spacing: 0.063em;
@@ -79,7 +69,7 @@ figure img {
 	background-color: #FFF200;
 	color: #16365D;
 }
--
+
 /* Colors */
 .color-group {
 	display: inline;
@@ -120,4 +110,86 @@ figure img {
 #color6 {
 	background-color: #FFFFFF; /* Green */
 	color: black;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+	aside::before, aside::after {
+		padding-top: 15%;
+	}
+}
+
+@media (min-width: 700px) {
+	figure img {
+		width: calc(100% / 3.1);
+		display: inline;
+		box-sizing: border-box;
+	}
+	.color-group {
+		display: inline;
+		width: 100%;
+	}
+	#color1, #color2, #color3, #color4, #color5, #color6 {
+		padding: 1em 2em;
+		width: calc(100% / 6);
+	}
+}
+
+@media (min-width: 800px) {
+	main {
+		width: 50vw;
+		float: left;
+		padding-left: 2%;
+		border-left: 0.5px solid #D9C066;
+	}
+	nav img {
+		position: sticky;
+		width: 40vw;
+		float: left;
+	}
+	aside {
+		border-left: 0.5px solid #D9C066;
+		float: right;
+		width: 55vw;
+	}
+	h1 {
+		font: 900 2em 'Montserrat';
+	}
+	h2 {
+		color: #2F72C4;
+		font: 800 1.275em 'Montserrat';
+	}
+}
+@media (min-width: 1000px) {
+	main {
+		width: 45vw;
+		border-left: 0.5px solid #D9C066;
+	}
+	aside {
+		width: 35vw;
+		float: left;
+	}
+	aside::before, aside::after {
+		display: inline-block;
+	}
+	nav img {
+		width: 35vw;
+		height: 150vh;
+	}
+	section {
+		padding-left: 2%;
+		border-left: 0.5px solid #D9C066;
+		float: right;
+		width: 10vw;
+	}
+	section.color-group {
+		width: 20vw;
+		height: 100vh;
+		position: absolute;
+	}
+	#color1, #color2, #color3, #color4, #color5, #color6 {
+		padding: 1em 2em;
+		clear: both;
+		width: 100%;
+	}
 }
