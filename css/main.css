@@ -5,3 +5,28 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+body {
+	background-color: #16365D;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav img {
+	width: 100vw;
+}
+
+h1 {
+	color: #FFF200;
+	font: 900 3em 'Montserrat';
+	line-height: 40%;
+}
+
+h2 {
+	color: #2F72C4;
+	font: 800 2em 'Montserrat';
+}
+
+p {
+	color: white;
+	font: 200 1em 'Montserrat';
+}
