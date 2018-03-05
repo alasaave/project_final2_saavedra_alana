@@ -11,7 +11,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-main, aside, figure {
+#container {
 	width: 95%;
 	margin: 0 auto;
 }
@@ -78,4 +78,46 @@ figure img {
 .button:hover {
 	background-color: #FFF200;
 	color: #16365D;
+}
+-
+/* Colors */
+.color-group {
+	display: inline;
+	width: 100%;
+}
+
+#color1, #color2, #color3, #color4, #color5, #color6 {
+	color: white;
+	border: none;
+	padding: 1em 2em;
+	width: calc(100% / 2);
+	display: inline;
+	font: 300 0.8725em 'Montserrat';
+	float: left;
+}
+
+#color1 {
+	background-color: #16365D; /* Blue */
+}
+
+#color2 {
+	background-color: #FFF200; /* Yellow */
+	color: black;
+}
+
+#color3 {
+	background-color: #D9C066; /* Tan */
+}
+
+#color4 {
+	background-color: #2F72C4; /* Light Blue */
+}
+
+#color5 {
+	background-color: #25959B; /* Green */
+}
+
+#color6 {
+	background-color: #FFFFFF; /* Green */
+	color: black;
 }
