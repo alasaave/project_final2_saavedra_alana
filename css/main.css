@@ -143,7 +143,6 @@ aside::before, aside::after {
 		border-left: 0.5px solid #D9C066;
 	}
 	nav img {
-		position: sticky;
 		width: 40vw;
 		float: left;
 	}
@@ -159,26 +158,27 @@ aside::before, aside::after {
 		color: #2F72C4;
 		font: 800 1.275em 'Montserrat';
 	}
+
 }
 @media (min-width: 1000px) {
 	main {
+		float: left;
 		width: 45vw;
 		border-left: 0.5px solid #D9C066;
 	}
-	aside {
-		width: 35vw;
-		float: left;
+	.button {
+		padding: 2%;
+		width: 75%;
 	}
 	aside::before, aside::after {
+		content: "";
+		padding: 2%;
 		display: inline-block;
-	}
-	nav img {
-		width: 35vw;
-		height: 150vh;
 	}
 	section {
 		padding-left: 2%;
 		border-left: 0.5px solid #D9C066;
+		border-top: none;
 		float: right;
 		width: 10vw;
 	}
@@ -191,5 +191,9 @@ aside::before, aside::after {
 		padding: 1em 2em;
 		clear: both;
 		width: 100%;
+	}
+	p, figcaption {
+		color: white;
+		font: 200 0.875em 'Montserrat';
 	}
 }
