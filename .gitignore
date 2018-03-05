@@ -1,0 +1,5 @@
+# ignore all PSDs
+*.psd
+
+# ignore style tile
+img/style-tile.png
