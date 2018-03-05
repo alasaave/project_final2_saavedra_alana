@@ -11,6 +11,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+main, aside, figure {
+	width: 95%;
+	margin: 0 auto;
+}
+
 nav img {
 	width: 100vw;
 }
@@ -29,4 +34,27 @@ h2 {
 p {
 	color: white;
 	font: 200 1em 'Montserrat';
+}
+
+a {
+	color: #FFF200;
+}
+
+a:visited {
+	color: #25995B;
+}
+
+.button {
+	letter-spacing: 0.063em;
+	text-transform: uppercase;
+	font: 800 1.375em 'Montserrat';
+	background-color: #16365D;
+	border: 3px solid #FFF200;
+	color: #FFF200;
+	padding: 2%;
+}
+
+.button:hover {
+	background-color: #FFF200;
+	color: #16365D;
 }
