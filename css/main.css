@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	background-color: #16365D;
+	background-color: #16365d;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,12 +21,12 @@ nav img {
 }
 
 h1 {
-	color: #FFF200;
+	color: #fff200;
 	font: 900 3em 'Montserrat';
 }
 
 h2 {
-	color: #2F72C4;
+	color: #2f72c4;
 	font: 800 2em 'Montserrat';
 }
 
@@ -36,11 +36,11 @@ p, figcaption {
 }
 
 a {
-	color: #FFF200;
+	color: #fff200;
 }
 
 a:visited, a:hover {
-	color: #25995B;
+	color: #25995b;
 }
 
 figure img {
@@ -58,16 +58,16 @@ aside::before, aside::after {
 	letter-spacing: 0.063em;
 	text-transform: uppercase;
 	font: 800 1.375em 'Montserrat';
-	background-color: #16365D;
-	border: 3px solid #FFF200;
-	color: #FFF200;
+	background-color: #16365d;
+	border: 3px solid #fff200;
+	color: #fff200;
 	padding: 2%;
 	width: 100%;
 }
 
 .button:hover {
-	background-color: #FFF200;
-	color: #16365D;
+	background-color: #fff200;
+	color: #16365d;
 }
 
 /* Colors */
@@ -87,28 +87,28 @@ aside::before, aside::after {
 }
 
 #color1 {
-	background-color: #16365D; /* Blue */
+	background-color: #16365d; /* Blue */
 }
 
 #color2 {
-	background-color: #FFF200; /* Yellow */
+	background-color: #fff200; /* Yellow */
 	color: black;
 }
 
 #color3 {
-	background-color: #D9C066; /* Tan */
+	background-color: #d9c066; /* Tan */
 }
 
 #color4 {
-	background-color: #2F72C4; /* Light Blue */
+	background-color: #2f72c4; /* Light Blue */
 }
 
 #color5 {
-	background-color: #25959B; /* Green */
+	background-color: #25959b; /* Green */
 }
 
 #color6 {
-	background-color: #FFFFFF; /* Green */
+	background-color: #ffffff; /* Green */
 	color: black;
 }
 
@@ -140,32 +140,37 @@ aside::before, aside::after {
 		width: 50vw;
 		float: left;
 		padding-left: 2%;
-		border-left: 0.5px solid #D9C066;
+		border-left: 0.5px solid #d9c066;
 	}
+
 	nav img {
 		width: 40vw;
 		float: left;
 	}
+
 	aside {
-		border-left: 0.5px solid #D9C066;
+		border-left: 0.5px solid #d9c066;
 		float: right;
 		width: 55vw;
 	}
+
 	h1 {
 		font: 900 2em 'Montserrat';
 	}
+
 	h2 {
-		color: #2F72C4;
+		color: #2f72c4;
 		font: 800 1.275em 'Montserrat';
 	}
-
 }
+
 @media (min-width: 1000px) {
 	main {
 		float: left;
 		width: 45vw;
-		border-left: 0.5px solid #D9C066;
+		border-left: 0.5px solid #d9c066;
 	}
+
 	.button {
 		padding: 2%;
 		width: 75%;
@@ -175,23 +180,27 @@ aside::before, aside::after {
 		padding: 2%;
 		display: inline-block;
 	}
+
 	section {
 		padding-left: 2%;
-		border-left: 0.5px solid #D9C066;
+		border-left: 0.5px solid #d9c066;
 		border-top: none;
 		float: right;
 		width: 10vw;
 	}
+
 	section.color-group {
 		width: 20vw;
 		height: 100vh;
 		position: absolute;
 	}
+
 	#color1, #color2, #color3, #color4, #color5, #color6 {
 		padding: 1em 2em;
 		clear: both;
 		width: 100%;
 	}
+
 	p, figcaption {
 		color: white;
 		font: 200 0.875em 'Montserrat';
