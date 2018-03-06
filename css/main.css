@@ -57,12 +57,12 @@ aside::before, aside::after {
 .visuallyhidden {
 	border: 0;
 	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
+	height: 0.063em;
+	margin: -0.063em;
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
-	width: 1px;
+	width: 0.063em;
 	white-space: nowrap; /* 1 */
 }
 
@@ -71,7 +71,7 @@ aside::before, aside::after {
 	text-transform: uppercase;
 	font: 800 1.375em 'Montserrat';
 	background-color: #16365d;
-	border: 3px solid #fff200;
+	border: 0.188em solid #fff200;
 	color: #fff200;
 	padding: 2%;
 	width: 100%;
