@@ -16,16 +16,16 @@ body {
 	margin: 0 auto;
 }
 
-nav img {
+header img {
 	width: 100vw;
 }
 
-h1 {
+h2 {
 	color: #fff200;
 	font: 900 3em 'Montserrat';
 }
 
-h2 {
+h3 {
 	color: #2f72c4;
 	font: 800 2em 'Montserrat';
 }
@@ -52,6 +52,18 @@ aside::before, aside::after {
 	content: "";
 	padding-top: 25%;
 	display: block;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap; /* 1 */
 }
 
 .button {
@@ -143,7 +155,7 @@ aside::before, aside::after {
 		border-left: 0.5px solid #d9c066;
 	}
 
-	nav img {
+	header img {
 		width: 40vw;
 		float: left;
 	}
