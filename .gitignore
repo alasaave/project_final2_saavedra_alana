@@ -2,4 +2,4 @@
 *.psd
 
 # ignore style tile
-img/style-tile.png
+style-tile.png
