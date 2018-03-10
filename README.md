@@ -6,12 +6,12 @@
 * [GitHub](http://github.com/alasaave/project_final2_saavedra_alana)
 * [Web Host](http://alanasaavedra.com/project_final2_saavedra_alana/)
 * [W3C Validator](http://validator.w3.org/unicorn/check?ucn_uri=alanasaavedra.com%2Fproject_final2_saavedra_alana%2F&ucn_task=conformance#)
-* [HTML5 Outliner](http://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Falanasaavedra.com%2Fproject_final2_saavedra_alana%2F)
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Falanasaavedra.com%2Fproject_final2_saavedra_alana%2F)
 
 
 ## Resources
 * [W3Schools](https://www.w3schools.com/cssref/css_pxtoemconversion.asp)
-  * I used this to calculate pixels to em.
+	* I used this to calculate pixels to em.
 * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169)
 	* I used the "visuallyhidden" class to correctly structure my content for screen readers.
 * [Midnight Cookies](http://www.midnightcookies.com/index.html)

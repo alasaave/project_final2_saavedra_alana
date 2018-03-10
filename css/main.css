@@ -57,12 +57,12 @@ aside::before, aside::after {
 .visuallyhidden {
 	border: 0;
 	clip: rect(0 0 0 0);
-	height: 0.063em;
-	margin: -0.063em;
+	height: 1px;
+	margin: -1px;
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
-	width: 0.063em;
+	width: 1px;
 	white-space: nowrap; /* 1 */
 }
 
@@ -71,7 +71,7 @@ aside::before, aside::after {
 	text-transform: uppercase;
 	font: 800 1.375em 'Montserrat';
 	background-color: #16365d;
-	border: 0.188em solid #fff200;
+	border: 3px solid #fff200;
 	color: #fff200;
 	padding: 2%;
 	width: 100%;
@@ -164,45 +164,48 @@ aside::before, aside::after {
 		border-left: 0.5px solid #d9c066;
 		float: right;
 		width: 55vw;
-	}
-
-	h1 {
-		font: 900 2em 'Montserrat';
+		padding-left: 2%;
 	}
 
 	h2 {
+		font: 900 2em 'Montserrat';
+	}
+
+	h3 {
 		color: #2f72c4;
-		font: 800 1.275em 'Montserrat';
+		font: 800 1.3em 'Montserrat';
 	}
 }
 
 @media (min-width: 1000px) {
 	main {
+		padding: 0 1% 0 1%;
 		float: left;
-		width: 45vw;
+		width: 40vw;
 		border-left: 0.5px solid #d9c066;
 	}
 
 	.button {
 		padding: 2%;
 		width: 75%;
+		max-width: 350px;
 	}
+
 	aside::before, aside::after {
 		content: "";
-		padding: 2%;
+		padding: 1%;
 		display: inline-block;
 	}
 
 	section {
-		padding-left: 2%;
+		padding-left: 1%;
 		border-left: 0.5px solid #d9c066;
 		border-top: none;
-		float: right;
-		width: 10vw;
+		float: left;
 	}
 
 	section.color-group {
-		width: 20vw;
+		width: 15vw;
 		height: 100vh;
 		position: absolute;
 	}
