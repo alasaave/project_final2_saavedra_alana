@@ -138,7 +138,7 @@ aside::before, aside::after {
 		box-sizing: border-box;
 	}
 	.color-group {
-		display: inline;
+		display: inline-block;
 		width: 100%;
 	}
 	#color1, #color2, #color3, #color4, #color5, #color6 {
@@ -148,9 +148,9 @@ aside::before, aside::after {
 }
 
 @media (min-width: 800px) {
-	main {
+	main, aside {
 		width: 50vw;
-		float: left;
+		float: right;
 		padding-left: 2%;
 		border-left: 0.5px solid #d9c066;
 	}
@@ -160,12 +160,6 @@ aside::before, aside::after {
 		float: left;
 	}
 
-	aside {
-		border-left: 0.5px solid #d9c066;
-		float: right;
-		width: 55vw;
-		padding-left: 2%;
-	}
 
 	h2 {
 		font: 900 2em 'Montserrat';
@@ -182,32 +176,28 @@ aside::before, aside::after {
 		padding: 0 1% 0 1%;
 		float: left;
 		width: 40vw;
-		border-left: 0.5px solid #d9c066;
+		border-right: 0.5px solid #d9c066;
 	}
 
-	.button {
-		padding: 2%;
-		width: 75%;
-		max-width: 350px;
+	aside {
+		width: 100%;
+		border: none;
 	}
 
 	aside::before, aside::after {
-		content: "";
-		padding: 1%;
-		display: inline-block;
+		padding-top: 1%;
 	}
 
 	section {
 		padding-left: 1%;
-		border-left: 0.5px solid #d9c066;
 		border-top: none;
-		float: left;
 	}
 
 	section.color-group {
 		width: 15vw;
 		height: 100vh;
 		position: absolute;
+		float: right;
 	}
 
 	#color1, #color2, #color3, #color4, #color5, #color6 {
